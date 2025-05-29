@@ -4,8 +4,6 @@
 mvnw
 mvnw.cmd
 target/
-!target/*.mvn/wrapper/maven-wrapper.jar
-!target/*.jar
 
 # IDEs
 .idea/
@@ -46,3 +44,4 @@ docker-compose.override.yml
 
 # Outros
 HELP.md
+config/
