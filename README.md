@@ -25,7 +25,8 @@ A imagem da aplicação está disponível de forma pública no Docker Hub. Faça
 - **Puxar a imagem**
 ```bash
    docker pull cassiusss/e-commerce:v1.0
-```g
+```
+
 1. **Clonar o Repositório | Construir localmente**
 <code> 
 git clone <URL_DO_REPOSITORIO>
@@ -34,7 +35,6 @@ cd gerenciamento-pedidos <code>
 2. **Configurar o Arquivo `application.yml`**
    Edite `src/main/resources/application.yml` para configurar o e-mail SMTP.
 <details>
-<summary>Verificar arquivo</summary>
 spring:
 mail:
 host: smtp.gmail.com
@@ -125,18 +125,23 @@ MAIL_PASSWORD=your_app_password
 # Spring Security
 SECURITY_USERNAME=admin
 SECURITY_PASSWORD=your_secure_security_password
-
+```
 ## Imagens complementares
-![img_3.png](img_3.png)
-
+<details>
+<summary><b>Notificação E-mail</b></summary>
+<img src="assets/img_3.png" alt="Imagem da notificação no g-mail.">
+</details>
 ## Diagramas
-Diagrama ER
-![img_1.png](img_1.png)
 
-Diagrama Mensageria 
-![img_2.png](img_2.png)
+<details>
+<summary><b>Diagrama ER</b></summary>
+<img src="assets/img_1.png" alt="Imagem do Diagrama de entidade relacionamento do projeto.">
+</details>
 
-
+<details>
+<summary><b>Diagrama Mensageria</b></summary>
+<img src="img_2.png" alt="Diagrama Mensageria">
+</details>
 
 ## Endpoints
 
@@ -150,3 +155,8 @@ Use Swagger, Postman ou cURL na seguinte ordem:
 - **API**: Teste `GET /usuario` no Swagger (status `200`).
 - **RabbitMQ**: Acesse `http://localhost:15672` (login: `guest/guest`) e cheque a fila `pedido-criado-queue`.
 - **E-mail**: Após um pedido, verifique o e-mail enviado (use MailHog ou caixa de entrada).
+
+## Autor
+
+- Projeto desenvolvido por [Cassius Cardoso](https://www.linkedin.com/in/cassiuscardosoo/)
+- Fique à vontade para contribuir!
