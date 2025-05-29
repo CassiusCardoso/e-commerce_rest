@@ -1,0 +1,46 @@
+# Maven
+../target/
+!*.mvn/wrapper/maven-wrapper.jar
+
+target/
+*.jar
+.mvnw
+.mvnw.cmd
+.HELP.md
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Logs
+*.log
+logs/
+
+# Temporários
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Sensíveis
+*.key
+*.pem
+*.sql
+.env
+application-local.yml
+docker-compose.override.ymltarget/
