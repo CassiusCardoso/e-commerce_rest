@@ -1,12 +1,11 @@
 # Maven
-../target/
-!*.mvn/wrapper/maven-wrapper.jar
-
+.mvn/wrapper/*
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
 target/
-*.jar
-.mvnw
-.mvnw.cmd
-.HELP.md
+!target/*.mvn/wrapper/maven-wrapper.jar
+!target/*.jar
 
 # IDEs
 .idea/
@@ -20,12 +19,12 @@ target/
 .project
 .settings/
 .springBeans
-.sts4-cache
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+.sts4-cache/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
 # Logs
 *.log
@@ -43,4 +42,7 @@ Thumbs.db
 *.sql
 .env
 application-local.yml
-docker-compose.override.ymltarget/
+docker-compose.override.yml
+
+# Outros
+HELP.md
