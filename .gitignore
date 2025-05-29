@@ -1,9 +1,12 @@
 # Maven
-.mvn/wrapper/*
-!.mvn/wrapper/maven-wrapper.jar
+.mvn/
 mvnw
 mvnw.cmd
 target/
+
+# Help and License files
+HELP.md
+LICENSE
 
 # IDEs
 .idea/
@@ -39,9 +42,9 @@ Thumbs.db
 *.pem
 *.sql
 .env
-application-local.yml
-docker-compose.override.yml
-
-# Outros
-HELP.md
-config/
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+*.jar
